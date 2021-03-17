@@ -8,15 +8,51 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@eva-design/eva": "^2.0.0",
+    "@expo-google-fonts/inter": "^0.1.0",
+    "@material-ui/core": "^4.11.3",
+    "@muratoner/semantic-ui-react-native": "^1.0.23",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/picker": "^1.8.1",
+    "@react-native-community/slider": "^3.0.3",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "@types/react": "^17.0.3",
+    "@types/react-native": "^0.63.51",
+    "@types/styled-components": "^5.1.7",
+    "@ui-kitten/components": "^5.0.0",
     "expo": "~40.0.0",
+    "expo-font": "~8.4.0",
     "expo-status-bar": "~1.0.3",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
-    "react-native-web": "~0.13.12"
+    "react-native-appearance": "~0.3.3",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-picker-select": "^8.0.4",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-responsive-dimensions": "^3.1.1",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "~2.15.2",
+    "react-native-svg": "^9.13.6",
+    "react-native-web": "~0.13.12",
+    "react-native-webview": "^11.2.4",
+    "semantic-ui-react": "^2.0.3",
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@babel/core": "~7.9.0"
+    "@babel/core": "~7.9.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.13.8",
+    "@expo/webpack-config": "^0.12.61",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
   },
-  "private": true
+  "private": true,
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
 }
